@@ -67,6 +67,24 @@ benchmark(10, 5)
 # 0.000044 seconds (426 allocations: 59.906 KiB)
 # 0.000079 seconds (1.32 k allocations: 146.625 KiB)
 
+
+
+benchmark(1000, 10)
+
+# 0.023637 seconds (6 allocations: 7.630 MiB, 64.46% gc time)
+# 0.052360 seconds (4 allocations: 7.629 MiB)
+# 0.052354 seconds (4 allocations: 7.629 MiB)
+# 0.050389 seconds (4 allocations: 7.629 MiB)
+# 0.051690 seconds (4 allocations: 7.629 MiB)
+# 0.040204 seconds (6 allocations: 7.630 MiB)
+
+# 0.035970 seconds (73 allocations: 76.320 MiB, 19.99% gc time)
+# 2.296858 seconds (12.00 M allocations: 2.064 GiB, 47.64% gc time)
+# 2.054278 seconds (12.00 M allocations: 2.064 GiB, 42.96% gc time)
+# 1.641398 seconds (12.00 M allocations: 2.064 GiB, 30.22% gc time)
+# 1.773875 seconds (12.00 M allocations: 2.064 GiB, 34.82% gc time)
+# 1.353244 seconds (12.00 M allocations: 1.885 GiB, 29.33% gc time)
+
 ## w/o precompile statements
 # 0.081053 seconds (289.35 k allocations: 19.437 MiB)
 # 0.159219 seconds (570.63 k allocations: 38.681 MiB, 6.74% gc time)
